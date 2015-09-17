@@ -1,0 +1,72 @@
+body
+{
+	background-repeat:repeat-x;
+}
+header 
+{
+	font-family: 'Kavoon';
+	margin-bottom: 38px;
+	padding-top: 10px;
+	margin-left: 370px;
+	text-align: center;
+	width: 620px;
+ }
+h1
+{
+	margin-bottom: 10px;
+}
+
+#capi
+{
+	position: relative;
+	display: block; 
+	margin: 0 auto;
+	width: 90%;
+	height: 200px;
+}
+
+.celda
+{
+	width: 45px;
+	height: 35px;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 20px;
+    border-color: transparent transparent rgba(250,250,250,0.4) transparent;
+    border-width: 0 25px 25px 25px;
+    height: 0;
+    width: 10px;
+    margin: 20px 10px 0px 0px;
+}
+
+.tringulo
+{
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid black;
+}
+
+#slider
+{
+	font-family: 'Kavoon';
+	position: absolute;
+	top:100px;
+	left: 18%;
+	width: 200px;
+	height: 50px;
+
+}
+
+#rango
+{
+	width: 100%;
+	cursor: pointer;
+}
+
+#txtrango
+{
+	font-family: 'Kavoon';
+	font-size: 25px;
+}
