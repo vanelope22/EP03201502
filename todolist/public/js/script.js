@@ -77,11 +77,6 @@ consumeServicios(1, "", function(data){
 		});
 }
 
-var newToDo = {finish : false, task : "Nueva tarea"};
-consumeServicios(2, newToDo, function(data){
-    todos.push(data);
-    mostrar();
-});
 
 
  function agrega() {
